@@ -1,0 +1,21 @@
+#div_video {
+    padding: 0px;
+    border: 2px solid #222;
+}
+.title {
+    font-size: 20px;
+    padding-top: 20px;
+}
+#div_video:target {
+    border: 2px solid red;
+}	
+
+.video {
+    cursor: pointer;
+}	
+video  {
+    border: 0px solid #f00;
+}
+.vjs-tech {
+    position: inherit !important;
+}

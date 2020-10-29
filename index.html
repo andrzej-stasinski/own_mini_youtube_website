@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Video JavaScript</title>
+    <link href="./video-js2.css" rel="stylesheet">
+    <script src="./video.dev.js"></script>            
+    <link rel="stylesheet" href="./style.css">
+    <script src=script.js></script>
+    <link rel="stylesheet" href="./resp.css">
+</head>
+<body>
+
+    <main id="div_video">
+        <header><h2>mini Youtube</h2></header>
+        <section>
+            <article>
+                <div>
+                <!-- <div id="div_video"> -->
+                    <video poster="./video/video_img/jazda_noc.jpg" id="video" controls="controls" preload="auto" class="video-js vjs-default-skin vjs-big-play-centered" data-setup='{}'>	
+                        <source id="mp4_src" src="./video/jazda_noc.mp4" type="video/mp4">
+                        <source id="ogg_src" src="./video/jazda_noc.ogv">
+                        <source id="webm_src" src="./video/jazda_noc.webm">	
+                    </video>
+                    
+                </div> 
+                 <div id="title" class='title'></div>              
+            </article>
+            <aside>
+                <div class='asideDiv'>
+                    <img id="jazda_noca" src="./video/video_img/jazda_noc.jpg" alt="jazda_noc" class="video" />	
+                    <div class='asideDiv__text'>Jazda nocą samochodem, bez włączonych świateł</div>
+                </div>
+                <div class='asideDiv'>
+                    <img id="poranek" src="./video/video_img/poranek.jpg" alt="poranek" class="video" />	
+                    <div class='asideDiv__text'>Poranek, zapach świeżego powietrza i śpiew ptaków</div>
+                </div>
+                <div class='asideDiv'>
+                    <img id="zachod" src="./video/video_img/zachod.jpg" alt="zachod" class="video" />	
+                    <div class='asideDiv__text'>Zachód, czyż nie bywa piękny</div>
+                </div>
+                <div class='asideDiv'>
+                    <img id="lot" src="./video/video_img/lot.jpg" alt="lot" class="video" />		
+                    <div class='asideDiv__text'>Wspomnienie, lot samolotem, podziwianie widoków</div>
+                </div>
+                <div class='asideDiv'>
+                    <img id="buck" src="./video/video_img/buck.jpg" alt="big" class="video" />
+                    <div class='asideDiv__text'>Coś z bajki, Buck i jego przygody</div>	
+                </div>
+                <div class='asideDiv'>
+                    <img id="morze" src="./video/video_img/morze.jpg" alt="big" class="video" />
+                    <div class='asideDiv__text'>Morze jest piękne,można powspominać</div>
+                </div>
+                <div class='asideDiv'>
+                    <img id="wschod" src="./video/video_img/wschod.jpg" alt="big" class="video" />
+                    <div class='asideDiv__text'>Wschód, widok jest piękny i przejmujący</div>
+                </div>
+            </aside>
+        </section>
+        <footer>© copyright by Andrzej Stasiński</footer>
+    </main>    
+
+    <br/>
+
+</body>
+</html>
