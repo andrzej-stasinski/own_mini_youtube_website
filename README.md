@@ -1,7 +1,7 @@
-## Mini youtube video player
+## Own mini youtube website
 
 #### Features
-* the website runs its own videos downloaded from the local disk (not downloaded from the Internet)
+* the website runs its own videos downloaded from the local disk
 * after selecting and clicking, we watch the video similar to youtube
 * JavaScript was used to make this app
 * html5 video standard used with file support, mp4, ogg and webm
